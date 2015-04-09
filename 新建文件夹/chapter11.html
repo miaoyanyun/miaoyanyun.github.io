@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script>    
+            /*window.onclick=function()
+            {
+                alert("hello world");
+            }*/
+            window.onload=function()
+            {
+
+               /*var btn1=document.getElementById("btn1");
+                btn1.onclick=changeStyle;*/
+               /* var obj=new Object();
+                obj.id=1;
+                obj.name="maxine";
+                for (var key in obj) {
+                    alert("id"+obj.id);
+                };*/
+               /* var arr=new Array();
+                arr[0]="apple";
+                arr[1]="orange";
+                arr[2]="pear";*/
+                 /*var arr=["apple","orange","pear"];
+                 arr.push("banana");
+                 arr.push("potato");
+                  arr.shift();//从头部取出
+                 arr.unshift("xx");//从头部插入
+                 arr.splice(2,1,"abc");//开始位置，取出个数，替换数*/
+                /* arr.pop();*///人尾部弹出
+                /*arr.shift();/从头部取出*/
+
+                /*for (var i = 0; i < arr.length; i++) {
+                  alert(arr[i]);
+                };*/
+                //冒泡排序
+               /* var arr=[23,45,56,2,90,43,56,15];
+                var len=arr.length;
+                for (var i = 0; i < len; i++) {
+                    for (var j = i+1; j < len;j++) {
+                        if (arr[i]>arr[j])
+                         {
+                          var temp=arr[i];
+                           arr[i]=arr[j];
+                           arr[j]=temp;
+                         };
+                    };
+                };
+                for (var i = 0; i < len; i++) 
+                {
+                 document.write(arr[i]+",");
+                };
+               */
+                //差值法排序
+                /*var arr=[23,45,56,2,90,43,56,15,134];
+                var arrSort=[];
+                arrSort[0]=arr[0];
+                var len=arr.length;
+               
+                for (var i = 1; i < len; i++) {
+                    var sortlen=arrSort.length;
+                     var flag=0;
+                    for (var j = 0; j < sortlen; j++) {
+                        if(arr[i]<arrSort[j])
+                            {
+                                arrSort.splice(j,0,arr[i]);
+                                flag=1;
+                                break;
+                            }
+                    }
+                   if(flag==0)
+                   {
+                    arrSort.push(arr[i]);
+                   }
+                }
+
+                var lens=arrSort.length;
+                for (var i = 0; i < lens; i++) 
+                {
+                 document.write(arrSort[i]+",");
+                }*/
+                //二分法排序
+                var arr=[23,45,56,2,90,43,56,15,134];
+               /* var cb=document.getElementById("cb");
+                cb.onclick=function{alert("点击了复选框");}*/
+            }
+           function changeStyle(a)
+           {
+
+           document.write( a.checked);
+           }
+        </script>
+       <!-- <meta http-equiv="refresh" content="3;http://www.baidu.com">-->
+      <style type="text/css"> 
+       /* p,span
+       {
+        color:green !important;
+        font-size: 20px;
+       font-weight: bold;
+       border: 1px solid green;
+        } */
+        b
+        {border:inherit;}
+       </style>
+       <link rel="stylesheet" href="css/style.css" />
+
+    </head>
+    <body>
+    <input type="checkbox" id="cb"  onclick="changeStyle(this)" />
+   <input type="text" id="txt" />
+    <!-- <form action="" onInput="res.value=num1.valueAsNumber*num2.valueAsNumber"> -->
+<!--          <select name="fruit" id="fruiteList" multiple="true">
+<optgroup label="水果">
+   <option value="1">苹果</option>
+   <option value="2">桔子</option>
+   <option value="3">香蕉</option>
+</optgroup>
+ <optgroup label="粗粮">
+   <option value="4" selected="select">小米</option>
+   <option value="5">大米</option>
+   <option value="6">高粱</option>
+</optgroup>
+        </select>
+        <textarea cols="20" rows="5" name="content" placeholder="请留下您的建议"></textarea>
+        <br />
+        <input type="number" id="num1" />
+        *
+        <input type="number" id="num2" />=
+        <output name="res" for="num1 num2"></output>
+        <input type="submit" />
+        <br />
+<input type="text" accesskey="n" />
+<p   style="color:red;font-size:50px">我能更改吗</p>
+        <p style="color:red">这是引用了出乎<b>意料</b></p>
+        <b >b元素自带加粗效果</b>
+        <span>加粗的span</span>
+        <br />
+        <input type="text" />
+        <input type="password" />
+        <a href="http://www.baidu.com">百度</a>
+        <a href="sougou">搜狗</a>
+        <a href="http:www.360.cn">360</a>
+        <br />
+        <p class="abc">我引用了类样式abc</p>
+        <p><<span><b>这是独生子</b></span></p>
+        <b>我是加粗的</b>
+        <p>我是一个wdai</p>
+        <b>我是加粗的</b>
+        <b>我是加粗的</b>
+<b>我是加粗的</b> -->
+<!-- <p>j已被html5警方行政拘留。</p>
+<div>新京报快讯(记者 王大鹏 通讯员 罗玉鹏)清明节期间，北京市大兴区街头出现了几名身穿佛教服饰的假尼姑，嘴上说要化缘修庙，却说不出为哪位菩萨哪座庙。4月6日下午，新京报记者从大兴警方获悉，5名“假尼姑”因招摇撞骗已被警方行政拘留。</div>
+     <a href="http://www.baifsdfsddu.com">百度</a>
+     <ul>
+        <li>我是姑娘</li>
+        <li>我是姑娘</li>
+        <li>我是姑娘</li>
+        <li>我是姑娘</li>
+     </ul>
+     <ul>
+        <li>我是姑娘</li>
+        
+     </ul>
+     <input type="text" required />
+     <input type="text" />
+     <input type="checkbox"  checked="checked" />
+<p></p>
+<p></p>
+<input type="checkbox" />
+
+<input type="button" id="btn1" value="click me" /> 
+<input type="text" id="txt" />
+ </form> -->
+       
+    </body>
+</html>
