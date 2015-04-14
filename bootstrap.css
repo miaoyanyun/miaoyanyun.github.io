@@ -1,0 +1,15 @@
+.row{
+    margin-bottom: 20px;
+}
+.row .row{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+[class*="col-"]{
+    padding: 15px;
+    padding-bottom: 15px;
+    background-color: darkcyan;
+    background-color: darkgoldenrod;
+    border: 1px solid saddlebrown;\
+    border: 1px solid darkgoldenrod;
+}
