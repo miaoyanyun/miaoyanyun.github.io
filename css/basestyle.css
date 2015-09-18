@@ -8,3 +8,8 @@
 	left: 0px;
     z-index: 1000;
 }
+
+.active>.bgwater {
+    -webkit-animation: bgSlide 7s linear infinite;
+    animation: bgSlide 7s linear infinite;
+}
