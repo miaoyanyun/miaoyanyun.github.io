@@ -1,0 +1,173 @@
+/*loading*/
+#loading {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    background-color: #e7e5be;
+}
+#loading .con {
+    display: block;
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    margin: -25% 0 0 -20%;
+}
+#loading .con img {
+    display: block;
+}
+#loading .con span {
+    display: block;
+    width: 100%;
+    /*height: 50%; *//*0% - 100%*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: url("../../img/common/icon_loading2.png") left bottom no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+#loading .con p {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: -35%;
+    left: 0;
+    font-size: 38px;
+    font-weight: bold;
+    font-style: italic;
+    color: #000;
+}
+
+/*page1*/
+.page1 img.text {
+    display: block;
+    margin: 25px auto 0;
+}
+
+/*page2*/
+.page2 img.textfield {
+    position: absolute;
+    left: 115px;
+    top: 740px;
+}
+.page2 img.page2_top{
+    position: absolute;
+    left: 170px;
+    top: 10px;
+
+}
+.page2 img.btn1,.page2 img.btn2 {
+    margin-top: 10px;
+}
+.page2 img.btn2 {
+    position: relative;
+    top: -219px;
+    left: 347px;
+}
+.page2 img.btn1{
+    position: relative;
+    top: 0px;
+    left:3px;
+}
+.page2 #endtime{
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    top: 75px;
+    left: 195px;
+    z-index: 1000;
+}
+/*page3*/
+/***v1***/
+.page3 .v{
+    display: none;
+}
+.page3 .v.active {
+    display: block;
+}
+.page3 .v img.textfield {
+    position: absolute;
+    left: 40px;
+    top: 700px;
+}
+.page3 .v img.text, .page3 .v img.btn {
+    display: block;
+    margin: 25px auto 0;
+}
+/***v2***/
+
+/*page4*/
+.page4 img.textfield {
+    display: block;
+    margin: 15px auto 0;
+}
+
+.page4 .share_layer {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+.page4 .share_layer.active {
+    display: block;
+}
+.page4 .share_layer div.tckdiv {
+    position: absolute;
+    width: 575px;
+    height: 382px;
+    top:425px;
+    right:87px;
+}
+.page4 .share_layer div.tckdiv img.btn1 {
+    position: absolute;
+    left: 20px;
+    top:230px;
+}
+.page4 .share_layer div.tckdiv img.btn2 {
+    position: absolute;
+    left: 300px;
+    top:230px;
+}
+
+.page5 img.textfield {
+    position: absolute;
+    left: 115px;
+    top: 700px;
+}
+.page5 img.text{
+    display: block;
+    margin: 25px auto 0;
+}
+.page5 img.btn {
+    display: block;
+    margin: 25px auto 0;
+}
+.fenxiang_layer {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+    display: none;
+
+}
+.fenxiang_layer.active {
+    display: block;
+    z-index: 1000;
+
+}
+.fenxiang_layer img {
+    top:25px;
+    right:27px;
+}
+.hide {
+    left: -9999px;
+}

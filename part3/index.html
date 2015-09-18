@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    <title>腾讯视频</title>
+    <link rel="stylesheet" type="text/css" href="../css/animate_min.css">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/game.css">
+</head>
+<body>
+<!--loading start-->
+<div id="loading" class="active">
+    <img class="bgwater" src="../img/common/bg.jpg" width="1500">
+    <div class="con">
+        <img src="../img/common/icon_loading1.png" width="100%">
+        <span></span>
+        <p>50%</p>
+    </div>
+</div>
+<!--loading end-->
+
+<!--页面主体 start-->
+<div id="wrap">
+    <div class="music">
+        <span class="anniu open" id="bgsound"></span>
+    </div>
+    <div class="pagewrap active">
+        <!--第1页 start-->
+        <div class="page1 page">
+            <img class="bgwater" src="../img/common/bg.jpg">
+            <article class="gamewrap gamebox">
+                <img class="pic " src="img/page1/pic_01.png">
+                <img class="text animated fadeIn delay200" style="opacity: 0" src="img/page1/pic_02.png">
+                <span  class="animated rollIn delay1000" style="opacity: 0"></span>
+            </article>
+        </div>
+        <!--第1页 end-->
+
+        <!--第2页 start-->
+        <div class="page2 page">
+            <img class="bgwater" src="../img/common/bg.jpg">
+            <article class="gamewrap gamebox">
+
+                <!--<div class="countdown">-->
+                    <!--<div class="barbox">-->
+                        <!--<em class="animated duration10000 countdownBar">&lt;!&ndash;loading条&ndash;&gt;-->
+                            <!--<img src="../img/common/countdown_bar.png">-->
+                        <!--</em>-->
+                        <!--<img class="num" src="../img/common/10.png">-->
+                        <!--<img class="miao" src="../img/common/icon_miao.png">-->
+                    <!--</div>-->
+                <!--</div>-->
+
+                <img class="pic " src="img/page1/pic_01.png">
+                <img class="textfield animated fadeInDown delay1000" src="img/page2/pic_01.png">
+                <img class="btn1 animated rotateInUpLeft delay500" src="img/page2/pic_02.png">
+                <img class="btn2 animated rotateInUpRight delay500" src="img/page2/pic_03.png">
+            </article>
+        </div>
+        <!--第2页 end-->
+
+        <!--第3页 start-->
+        <div class="page3 page">
+            <img class="bgwater" src="../img/common/bg.jpg">
+            <article class="gamewrap v1 v">
+                <img class="pic " src="img/page3/v1/pic_01.png">
+                <img class="textfield animated fadeInDown delay200" src="img/page3/v1/pic_02.png">
+                <img class="text animated zoomIn delay500" src="img/page3/v1/pic_03.png">
+                <img class="btn animated flipInX delay1000" src="../img/common/btn_tovideo.png">
+            </article>
+            <article class="gamewrap v2 v">
+                <img class="pic" src="img/page3/v2/pic_01.png">
+                <img class="textfield animated fadeInDown delay200" src="img/page3/v2/pic_02.png">
+                <img class="text animated zoomIn delay500" src="img/page3/v2/pic_03.png">
+                <img class="btn animated flipInX delay1000" src="../img/common/btn_tovideo.png">
+            </article>
+        </div>
+        <!--第3页 end-->
+
+        <!--第4页 start-->
+        <div class="page4 page">
+            <img class="bgwater" src="../img/common/bg.jpg">
+            <article class="gamewrap gamebox">
+                <img class="pic" src="img/page4/pic_01.png">
+                <img class="textfield animated bounceIn delay1000" style="opacity: 0;" src="img/page4/pic_05.png">
+                <img class="xie_l" src="img/page4/pic_03.png">
+                <img class="xie_r" src="img/page4/pic_03.png">
+                <div class="videowrap animated zoomIn delay500">
+                    <video id='videosSreen' width="600" height="360" poster="img/page4/pic_02.jpg" controls webkit-playsinline>
+                        <source src="video/v1.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </article>
+            <div class="share_layer">
+                <div class="tckdiv">
+                    <img class="tck" src="img/page4/pic_06.png">
+                    <img class="btn1" src="img/page4/btn_01.png">
+                    <img class="btn2" src="img/page4/btn_02.png">
+                </div>
+            </div>
+        </div>
+        <!--第4页 end-->
+        <!--第5页 start-->
+        <div class="page5 page">
+            <img class="bgwater" src="../img/common/bg.jpg">
+            <article class="gamewrap gamebox">
+                <img class="pic " src="img/page5/pic_01.png">
+                <img class="textfield animated fadeInDown delay1000" src="img/page5/pic_03.png">
+                <img class="text delay500 animated fadeIn " style="opacity: 0;" src="img/page5/pic_02.png">
+                <img class="btn delay2000 animated bounceIn " style="opacity: 0;" src="img/page5/btn_tovideo.png">
+            </article>
+
+        </div>
+        <!--第5页 end-->
+        <div class="fenxiang_layer">
+            <img src="img/page5/fenx.png">
+        </div>
+    </div>
+</div>
+<!--页面主体 end-->
+
+<!--js footer-->
+<script src="../js/webscale.js"></script>
+<script src="../js/zepto.min.js"></script>
+<script src="../js/touch.js"></script>
+<script src="../js/pagecontrol.js"></script>
+<script src="js/game.js"></script>
+<script src="../js/jweixin-1.0.0.js"></script>
+<script type="text/javascript" src="../js/wx3.js"></script>
+</body>
+</html>
