@@ -9,8 +9,8 @@
     z-index: 1000;
 }
 
-.active>.bgwater {
+/*.active>.bgwater {
 
     -webkit-animation: bgSlide 7s linear infinite;
     animation: bgSlide 7s linear infinite;
-}
+}*/
