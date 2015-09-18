@@ -79,6 +79,7 @@ input,button,select,textarea{outline:none}
 #loading .con img {
     display: block;
 }
+
 #loading .con span {
     display: block;
     width: 100%;
