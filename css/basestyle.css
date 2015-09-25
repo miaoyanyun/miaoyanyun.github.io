@@ -33,8 +33,51 @@
     background-size: 100%;
     overflow: hidden;
 }
-.active>.bgwater {
+/*************animation****************/
+@-webkit-keyframes countdownBar {
+    0% {
+        width: 100%;
+    }
+    100% {
+        width: 0;
+    }
+}
+@keyframes countdownBar {
+    0% {
+        width: 100%;
+    }
+    100% {
+        width: 0;
+    }
+}
+.active>.countdownBar {
+    -webkit-animation-name: countdownBar;
+    animation-name: countdownBar;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
 
+@-webkit-keyframes bgSlide {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(-750px);
+        transform: translateX(-750px);
+    }
+}
+@keyframes bgSlide {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(-750px);
+        transform: translateX(-750px);
+    }
+}
+.active>.bgwater {
     -webkit-animation: bgSlide 7s linear infinite;
     animation: bgSlide 7s linear infinite;
 }
